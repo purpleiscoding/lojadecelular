@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="304.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lojadecelular.controller.MainController">
+   <children>
+      <Button fx:id="BtnFornecedor" layoutX="26.0" layoutY="168.0" mnemonicParsing="false" onAction="#BtnFornecedor_Action" text="Cadastrar Fornecedor" />
+      <Button fx:id="BtnCliente" layoutX="28.0" layoutY="218.0" mnemonicParsing="false" onAction="#BtnCliente_Action" prefHeight="25.0" prefWidth="127.0" text="Cadastrar Cliente" />
+      <Button fx:id="BtnCelulars" layoutX="28.0" layoutY="115.0" mnemonicParsing="false" onAction="#BtnCelulars_Action" prefHeight="25.0" prefWidth="127.0" text="Cadastrar Celular" />
+      <Label layoutX="91.0" layoutY="14.0" prefHeight="55.0" prefWidth="343.0" text="LOJA DE CELULARES" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="BtnCompra" layoutX="263.0" layoutY="140.0" mnemonicParsing="false" onAction="#BtnCompra_Action" prefHeight="25.0" prefWidth="127.0" text="Realizar Compra" />
+      <Button fx:id="BtnVenda" layoutX="263.0" layoutY="193.0" mnemonicParsing="false" onAction="#BtnVenda_Action" prefHeight="25.0" prefWidth="127.0" text="Realizar Venda" />
+   </children>
+</Pane>
